@@ -48,7 +48,7 @@ const validateName = [
 
 app.get("/", (req, res) => {
   // Hier können Sie den entsprechenden Code für die Verarbeitung der Anforderung schreiben
-  res.send("Server aktiv");
+  res.send("Server aktiv!");
 });
 
 // Definiere eine API-Route für die Validierung der Formdaten
